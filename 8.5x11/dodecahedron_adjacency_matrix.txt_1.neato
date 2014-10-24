@@ -1,0 +1,31 @@
+graph G1 {
+2 -- 6;
+2 -- 9;
+2 -- 12;
+4 -- 6;
+4 -- 14;
+4 -- 17;
+5 -- 10;
+5 -- 12;
+5 -- 13;
+6 -- 8;
+8 -- 15;
+8 -- 19;
+9 -- 13;
+9 -- 15;
+12 -- 17;
+14 -- 18;
+14 -- 19;
+2 [style=filled, fontcolor="white", fillcolor="#004e7f"];
+4 [style=filled, fontcolor="white", fillcolor="#30ce30"];
+5 [style=filled, fontcolor="white", fillcolor="#7f004e"];
+6 [style=filled, fontcolor="white", fillcolor="#00b07f"];
+8 [style=filled, fontcolor="black", fillcolor="#30cece"];
+9 [style=filled, fontcolor="white", fillcolor="#3030ce"];
+12 [style=filled, fontcolor="white", fillcolor="#303030"];
+13 [style=filled, fontcolor="white", fillcolor="#7f00b0"];
+14 [style=filled, fontcolor="black", fillcolor="#7fff4e"];
+15 [style=filled, fontcolor="black", fillcolor="#4e7fff"];
+17 [style=filled, fontcolor="white", fillcolor="#4e7f00"];
+19 [style=filled, fontcolor="black", fillcolor="#7fffb0"];
+}

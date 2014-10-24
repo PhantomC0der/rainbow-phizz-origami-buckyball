@@ -270,20 +270,21 @@ def reverse_color(color):
 
 
 
-sheet_size = [24, 14]
-margin     = {'left' : 0.5, 'right' : 0.5, 'top' : 0.5, 'bottom' : .75}
+square_size = 1.5 # in inches
+#sheet_size = [24, 14]
+#margin     = {'left' : 0.5, 'right' : 0.5, 'top' : 0.5, 'bottom' : .75}
 
 
 #sheet_size = [36, 18]
 #margin     = {'left' : 0.5, 'right' : 12.5, 'top' : 0.5, 'bottom' : .75}
 
 
-#sheet_size = [8.5, 11]
-#margin     = {'left' : 0.5, 'right' : 0.5, 'top' : 0.5, 'bottom' : .5}
+sheet_size = [8.5, 11]
+margin     = {'left' : 0.5, 'right' : 0.5, 'top' : 0.5, 'bottom' : .5}
 
 for shape in ["dodecahedron", "buckyball", "buckyball_240"]:
     for side in ['front', 'back', 'laser']:
-        bucky(shape , square_size = 1.5, square_margin=.1, fill_type='gradient', margin = margin, sheet_size = sheet_size, side=side)
+        bucky(shape , square_size = square_size, square_margin=.1, fill_type='gradient', margin = margin, sheet_size = sheet_size, side=side)
 
 #bucky("torus_5_10",
 #bucky("icosohedron" 
