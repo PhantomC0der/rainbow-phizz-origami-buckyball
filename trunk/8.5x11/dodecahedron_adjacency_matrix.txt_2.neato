@@ -1,0 +1,23 @@
+graph G1 {
+0 -- 1;
+0 -- 3;
+0 -- 19;
+1 -- 7;
+1 -- 15;
+3 -- 16;
+3 -- 18;
+7 -- 13;
+7 -- 16;
+10 -- 11;
+10 -- 16;
+11 -- 17;
+11 -- 18;
+0 [style=filled, fontcolor="black", fillcolor="#cecece"];
+1 [style=filled, fontcolor="black", fillcolor="#b07fff"];
+3 [style=filled, fontcolor="black", fillcolor="#ffb07f"];
+7 [style=filled, fontcolor="black", fillcolor="#ce30ce"];
+10 [style=filled, fontcolor="white", fillcolor="#ce3030"];
+11 [style=filled, fontcolor="white", fillcolor="#b07f00"];
+16 [style=filled, fontcolor="black", fillcolor="#ff4e7f"];
+18 [style=filled, fontcolor="black", fillcolor="#cece30"];
+}
